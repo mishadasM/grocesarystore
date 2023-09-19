@@ -1,0 +1,53 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 4, Errors: 0, Skipped: 2, Time elapsed: 59.93 s <<< FAILURE! - in TestSuite
+CreateDeliveryBoyTest(com.obsqura.tests.CreateDeliveryBoy)  Time elapsed: 9.466 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-success alert-dismissible']"}
+  (Session info: MicrosoftEdge=117.0.2045.31)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a5ce3b32ae63952075b351ade4d351d6, findElement {using=xpath, value=//div[@class='alert alert-success alert-dismissible']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.31, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62855}, msedge: {msedgedriverVersion: 117.0.2045.31 (fdd954ad1e8c..., userDataDir: C:\Users\user\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62855/devtoo..., se:cdpVersion: 117.0.2045.31, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5ce3b32ae63952075b351ade4d351d6
+	at com.obsqura.tests.CreateDeliveryBoy.CreateDeliveryBoyTest(CreateDeliveryBoy.java:18)
+
+InitializeDriver(com.obsqura.tests.SearchProductTest)  Time elapsed: 10.984 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-86HG8TK', ip: '192.168.1.36'
+Caused by: org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver process to start.
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: driver.version: EdgeDriver
+
+AdminUserTest(com.obsqura.tests.AdminUser)  Time elapsed: 5.766 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (322, -43)
+  (Session info: MicrosoftEdge=117.0.2045.31)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c0736dc7d713a5bf03b3c1c01a95aaf5, clickElement {id=B4108452CAD1DC23CA997B4F5CBBA926_element_35}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.31, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63044}, msedge: {msedgedriverVersion: 117.0.2045.31 (fdd954ad1e8c..., userDataDir: C:\Users\user\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63044/devtoo..., se:cdpVersion: 117.0.2045.31, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on windows (c0736dc7d713a5bf03b3c1c01a95aaf5)] -> xpath: (//button[@class='btn btn-block-sm btn-danger'])[2]]
+Session ID: c0736dc7d713a5bf03b3c1c01a95aaf5
+	at com.obsqura.tests.AdminUser.AdminUserTest(AdminUser.java:16)
+
+CreateContactTest(com.obsqura.tests.CreateContact)  Time elapsed: 13.184 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-success alert-dismissible']"}
+  (Session info: MicrosoftEdge=117.0.2045.31)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d19e9e3eb9ac83ccd58d8719d0ec7aab, findElement {using=xpath, value=//div[@class='alert alert-success alert-dismissible']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.31, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63149}, msedge: {msedgedriverVersion: 117.0.2045.31 (fdd954ad1e8c..., userDataDir: C:\Users\user\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63149/devtoo..., se:cdpVersion: 117.0.2045.31, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d19e9e3eb9ac83ccd58d8719d0ec7aab
+	at com.obsqura.tests.CreateContact.CreateContactTest(CreateContact.java:25)
+
